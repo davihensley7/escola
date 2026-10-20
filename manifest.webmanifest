@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "Física • Abel Coelho",
+  "short_name": "Física Abel",
+  "description": "Aulas de Física, quizzes e laboratório interativo da comunidade escolar do Abel Coelho.",
+  "lang": "pt-BR",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#090E1F",
+  "theme_color": "#0B1026",
+  "categories": ["education", "utilities"],
+  "icons": [
+    {"src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "./icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
