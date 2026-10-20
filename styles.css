@@ -16,3 +16,89 @@
 
 /* Impede que o brilho decorativo crie rolagem horizontal em telas pequenas. */
 @media(max-width:620px){.ambient-two{display:none}}
+
+/* === Identidade visual Abel Coelho === */
+:root{
+  --bg:#091739;
+  --surface:#112452;
+  --surface2:#163066;
+  --line:#3556a6;
+  --muted:#c1d0ee;
+  --text:#f7fbff;
+  --purple:#293a98;
+  --purple2:#4155c5;
+  --cyan:#1fb2eb;
+  --orange:#f3e400;
+  --red:#ef2f37;
+}
+body{background:linear-gradient(180deg,#091739 0%,#0a1b43 100%)}
+.ambient-one{background:#263d95;opacity:.28}
+.ambient-two{background:#1fb2eb;opacity:.16}
+.topbar{border-bottom:1px solid rgba(74,118,214,.35)}
+.brand{gap:14px}
+.brand-icon{height:54px;width:54px;background:#fff;border:1px solid rgba(243,228,0,.5);box-shadow:0 10px 28px rgba(14,33,90,.35);border-radius:16px;overflow:hidden;padding:5px}
+.brand-icon img{width:100%;height:100%;object-fit:contain;display:block}
+.brand-copy strong{font-size:22px;color:#ffffff}
+.brand-copy small{max-width:265px;color:#dce6ff;letter-spacing:.11em;line-height:1.25}
+.brand-dot,.period{color:var(--orange)}
+.desktop-nav{background:rgba(17,36,82,.75);border-color:rgba(95,130,215,.36)}
+.nav-link.active{background:#294799;color:#fff}
+.install-btn{border:1px solid #f3e400;background:linear-gradient(135deg,#f3e400,#ffe95d);color:#18255a;box-shadow:0 6px 22px rgba(243,228,0,.28)}
+.eyebrow,.dialog-overline,.insight-top,.install-guide span,.lesson-overline{color:#8edcff}
+.eyebrow-line{background:var(--orange)}
+.hero{background:radial-gradient(circle at 75% 35%,rgba(31,178,235,.26) 0%,transparent 34%),linear-gradient(120deg,#10285f 0%,#142f70 55%,#1d2e84 100%);border:1px solid rgba(120,164,255,.42)}
+.hero-tag{background:rgba(255,255,255,.09);border:1px solid rgba(243,228,0,.38);color:#fff4a6}
+.live-dot{background:var(--orange);box-shadow:0 0 0 4px rgba(243,228,0,.2)}
+.hero h1 em,.page-head h1 em{color:#ffe95d}
+.button-primary{border:1px solid #f3e400;background:#f3e400;color:#16255d;box-shadow:0 10px 24px rgba(243,228,0,.23)}
+.button-ghost{border:1px solid rgba(170,205,255,.45);background:rgba(255,255,255,.08)}
+.button-light{background:#ffffff;color:#172863}
+.school-hero-art{display:flex;align-items:center;justify-content:center}
+.school-logo-card{width:min(100%,430px);background:rgba(255,255,255,.96);border:1px solid rgba(26,56,134,.22);border-radius:28px;padding:22px;box-shadow:0 22px 50px rgba(6,16,43,.28);position:relative;z-index:2}
+.school-logo-card img{width:100%;display:block;object-fit:contain}
+.school-color-ribbon{position:absolute;width:20px;height:210px;border-radius:18px;background:linear-gradient(180deg,#293a98 0%,#1fb2eb 35%,#f3e400 66%,#293a98 100%);opacity:.9;filter:drop-shadow(0 0 14px rgba(255,255,255,.18))}
+.ribbon-left{left:16px;top:72px}
+.ribbon-right{right:18px;bottom:58px}
+.school-color-chip{position:absolute;border-radius:50%;width:22px;height:22px;border:2px solid rgba(255,255,255,.55);box-shadow:0 0 0 8px rgba(255,255,255,.05)}
+.chip-blue{background:#293a98;right:12%;top:12%}
+.chip-cyan{background:#1fb2eb;left:13%;top:18%}
+.chip-yellow{background:#f3e400;left:20%;bottom:13%}
+.chip-red{background:#ef2f37;right:16%;bottom:11%}
+.stat-icon.violet,.quick-icon.purple,.page-head-symbol,.hero-corner,.filter-pill.selected,.formula-category,.mobile-link.active{background-color:rgba(41,58,152,.18);color:#dbe5ff}
+.stat-icon.cyan,.quick-icon.turquoise,.lab-symbol{background-color:rgba(31,178,235,.16);color:#84e0ff}
+.stat-icon.amber,.quick-icon.orange,.challenge-symbol{background-color:rgba(243,228,0,.15);color:#fff18c}
+.stat{background:#10224e;border-color:#274790}
+.continue-card{background:linear-gradient(135deg,#29419d,#1e2f8a);border-color:rgba(243,228,0,.28)}
+.progress-circle{background:conic-gradient(#f3e400 calc(var(--progress)*1%),rgba(255,255,255,.14) 0)}
+.progress-circle>div{background:#1a2b76}
+.insight-card{background:radial-gradient(ellipse at right top,rgba(31,178,235,.35) 0%,transparent 58%),#0f2a62;border-color:#2f5aa7}
+.insight-symbol,.formula-equation{color:#9be6ff}
+.text-link{color:#ffe95d}
+.quick-card,.track-card,.formula-card,.quiz-card,.quiz-box,.lab-controls,.lab-stage,.learning-summary,.install-guide>div,.search-box{background-color:#112452;border-color:#2d4e99}
+.track-meta span,.formula-count,.formula-card p,.page-head p,.formulas-note,.search-box input::placeholder{color:#bfd0ef}
+.track-chip{background:rgba(255,255,255,.08)}
+.track-badge{background:#f3e400;color:#1c295e}
+.filter-pill{border-color:#3556a6;background:#0d1f4b;color:#d6e3ff}
+.filter-pill.selected{background:#294799;color:#fff;border-color:#4f74d5}
+.learning-track,.slider-field input[type="range"],.quiz-progress{accent-color:#f3e400}
+.planet-choice.selected,.nav-link:hover,.mobile-link:hover{border-color:#f3e400;background:rgba(243,228,0,.12);color:#fff}
+.page-head-symbol,.quick-icon,.stat-icon{border:1px solid rgba(255,255,255,.08)}
+.lab-results>div{background:#112452;border-color:#2d4f98}
+.lab-tip,.lesson-real{background:rgba(31,178,235,.12);border-color:rgba(31,178,235,.24)}
+.search-box:focus-within{border-color:#f3e400}
+.footer-brand{display:flex;align-items:center;gap:10px}
+.footer-brand img{width:40px;height:40px;object-fit:contain;background:#fff;border-radius:10px;padding:4px;border:1px solid rgba(243,228,0,.45)}
+.footer{border-top:1px solid rgba(74,118,214,.3)}
+.custom-dialog{background:#12275b;border-color:#4765b6}
+.icon-close{background:#1e3b86;border-color:#6480cb}
+.install-emblem{color:#f3e400}
+.toast{background:#1d3477;border-color:#5d7fd8}
+.mobile-nav{background:rgba(11,27,69,.96);border-top-color:#2d4e99}
+@media(max-width:620px){
+  .brand-icon{width:43px;height:43px;padding:4px}
+  .brand-copy small{max-width:160px;font-size:7px;letter-spacing:.08em}
+  .school-logo-card{padding:16px;border-radius:22px}
+  .school-color-ribbon{height:130px;width:14px}
+  .ribbon-left{left:5px;top:110px}
+  .ribbon-right{right:4px;bottom:36px}
+}
