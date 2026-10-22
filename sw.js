@@ -1,5 +1,5 @@
 /* App shell precache. Caminhos relativos permitem publicar no GitHub Pages em subpastas. */
-const CACHE_NAME='fisica-abel-coelho-v2';
+const CACHE_NAME='fisica-abel-coelho-v4';
 const PRECACHE=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest','./icons/icon-192.png','./icons/icon-512.png','./icons/icon-512-maskable.png','./assets/logo-abel-full.png','./assets/logo-abel-mark.png'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(PRECACHE)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('fisica-abel-coelho-')&&key!==CACHE_NAME).map(key=>caches.delete(key)))).then(()=>self.clients.claim()))});

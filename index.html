@@ -25,7 +25,7 @@
   <div class="app-shell">
     <header class="topbar">
       <a class="brand" href="#inicio" data-go="inicio" aria-label="Física Abel Coelho - início">
-        <span class="brand-icon" aria-hidden="true"><img src="./assets/logo-abel-mark.png" alt=""></span>
+        <img class="brand-logo" src="./assets/logo-abel-mark.png" alt="Logo do Abel Coelho">
         <span class="brand-copy"><strong>FÍSICA<span class="brand-dot">.</span></strong><small>ESCOLA ESTADUAL PROFESSOR ABEL FREIRE COELHO</small></span>
       </a>
       <nav class="desktop-nav" aria-label="Navegação principal">
@@ -46,13 +46,28 @@
         <div class="eyebrow greeting"><span class="eyebrow-line"></span> PÁGINA INSTITUCIONAL DE FÍSICA <span class="eyebrow-year">/ ABEL COELHO</span></div>
         <section class="hero">
           <div class="hero-content">
-            <div class="hero-tag"><span class="live-dot"></span> IDENTIDADE VISUAL OFICIAL DA ESCOLA</div>
+            <div class="hero-tag"><span class="live-dot"></span> COM AS CORES DO ABEL COELHO</div>
             <h1 id="home-heading">A Física está <em>em tudo.</em><br>Descubra o porquê.</h1>
             <p>Das estrelas ao movimento de uma bola, explore as leis que explicam o universo em uma página institucional de Física com a identidade visual da Escola Estadual Professor Abel Freire Coelho.</p>
             <div class="hero-buttons"><button type="button" class="button button-primary" data-action="go-trilhas">Começar a estudar <span aria-hidden="true">↗</span></button><button type="button" class="button button-ghost" data-action="go-lab">Explorar laboratório <span aria-hidden="true">→</span></button></div>
             <div class="hero-caption"><span class="tiny-stars" aria-hidden="true">✦ ✦ ✦</span> Projeto institucional com a marca e as cores do Abel Coelho</div>
           </div>
-          <div class="hero-art school-hero-art" aria-hidden="true"><div class="school-logo-card"><img src="./assets/logo-abel-full.png" alt="Logo da Escola Estadual Professor Abel Freire Coelho"></div><div class="school-color-ribbon ribbon-left"></div><div class="school-color-ribbon ribbon-right"></div><div class="school-color-chip chip-blue"></div><div class="school-color-chip chip-cyan"></div><div class="school-color-chip chip-yellow"></div><div class="school-color-chip chip-red"></div></div>
+          <div class="hero-art institutional-hero" aria-hidden="true">
+            <div class="hero-panel">
+              <img class="hero-school-logo" src="./assets/logo-abel-full.png" alt="Logo da Escola Estadual Professor Abel Freire Coelho">
+              <div class="hero-panel-divider"></div>
+              <div class="hero-panel-info">
+                <span class="hero-panel-kicker">IDENTIDADE VISUAL</span>
+                <strong>As cores do Abel Coelho</strong>
+                <div class="hero-palette">
+                  <span class="swatch swatch-blue"></span>
+                  <span class="swatch swatch-cyan"></span>
+                  <span class="swatch swatch-yellow"></span>
+                  <span class="swatch swatch-red"></span>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="hero-corner hero-corner-top" aria-hidden="true"></div><div class="hero-corner hero-corner-bottom" aria-hidden="true"></div>
         </section>
         <section class="stats-row" aria-label="Recursos disponíveis"><div class="stat"><div class="stat-icon violet">◈</div><div><strong>6</strong><span>Trilhas de estudo</span></div></div><div class="stat"><div class="stat-icon cyan">⌁</div><div><strong>18</strong><span>Aulas rápidas</span></div></div><div class="stat"><div class="stat-icon amber">✦</div><div><strong>3</strong><span>Desafios</span></div></div><div class="stat"><div class="stat-icon green">↓</div><div><strong>Offline</strong><span>Estude sem internet</span></div></div></section>
@@ -60,6 +75,29 @@
         <section class="feature-grid"><div class="continue-card"><div class="mini-label">SEU PROGRESSO <span>01 / 02</span></div><div class="progress-circle" id="progressRing" style="--progress:0"><div><strong id="progressPercent">0%</strong><span>concluído</span></div></div><div class="continue-copy"><h3>Conhecimento em movimento.</h3><p id="progressSubtitle">Comece sua primeira aula e acompanhe sua evolução aqui.</p><button type="button" class="button button-light" data-action="continue">Continuar aprendendo <span>→</span></button></div></div><div class="insight-card"><span class="insight-top">VOCÊ SABIA? <span>✳</span></span><div class="insight-symbol">c = 299.792.458 m/s</div><h3>A luz é incrivelmente rápida.</h3><p>Em apenas um segundo, ela consegue dar mais de 7 voltas completas na Terra.</p><span class="insight-foot">UM FATO SOBRE O UNIVERSO <span>↗</span></span></div></section>
         <div class="section-heading compact"><div><div class="eyebrow small">EXPLORE MAIS</div><h2>Aprender também é experimentar<span class="period">.</span></h2></div></div>
         <div class="quick-grid"><button type="button" class="quick-card" data-action="go-lab"><span class="quick-icon purple">↗</span><strong>Laboratório virtual</strong><span>Faça lançamentos e veja a Física acontecer.</span><b aria-hidden="true">→</b></button><button type="button" class="quick-card" data-action="go-desafios"><span class="quick-icon orange">◎</span><strong>Teste seu conhecimento</strong><span>Responda desafios e supere sua pontuação.</span><b aria-hidden="true">→</b></button><button type="button" class="quick-card" data-action="go-formulas"><span class="quick-icon turquoise">ƒ</span><strong>Fórmulas essenciais</strong><span>Encontre equações e o significado de cada símbolo.</span><b aria-hidden="true">→</b></button></div>
+        <section class="developer-section" id="sobre" aria-labelledby="developer-heading">
+          <div class="developer-header">
+            <span class="eyebrow small"><span class="eyebrow-line"></span> SOBRE O APLICATIVO</span>
+            <h2 id="developer-heading">Um projeto criado para <em>aprender mais.</em></h2>
+            <p>Desenvolvido como atividade escolar de Informática, este PWA reúne conteúdos e experiências de Física em uma interface que funciona no computador e parece um aplicativo no celular.</p>
+          </div>
+          <div class="developer-card">
+            <div class="developer-identity">
+              <span class="developer-avatar" aria-hidden="true">DH</span>
+              <div>
+                <span class="developer-caption">DESENVOLVEDOR DA APLICAÇÃO</span>
+                <h3>Davi Hensley De Araujo Costa</h3>
+                <p>Escola Estadual Professor Abel Freire Coelho</p>
+              </div>
+            </div>
+            <dl class="developer-details">
+              <div><dt>Turma</dt><dd>Informática</dd></div>
+              <div><dt>Série</dt><dd>3ª série</dd></div>
+              <div><dt>Tipo de projeto</dt><dd>Aplicativo PWA</dd></div>
+            </dl>
+            <div class="developer-bottom"><span><span class="feature-indicator" aria-hidden="true"></span> Instale no celular</span><span>Interface responsiva</span><span>Conteúdo offline</span></div>
+          </div>
+        </section>
       </section>
 
       <section class="view" id="view-trilhas" data-view="trilhas" aria-labelledby="trilhas-heading" hidden><div class="page-head"><div><div class="eyebrow small">DO PRIMEIRO CONCEITO À PRÁTICA</div><h1 id="trilhas-heading">Trilhas de <em>aprendizado.</em></h1><p>Escolha um assunto, leia as aulas e marque o que aprendeu. Tudo fica salvo neste dispositivo.</p></div><div class="page-head-symbol">✳</div></div><div class="learning-summary"><div><span>SEU APROVEITAMENTO</span><strong id="lessonsCount">0 de 18 aulas</strong></div><div class="learning-track"><span id="lessonsBar" style="width:0%"></span></div><span id="lessonsPercent">0% concluído</span></div><div class="filter-row" id="trackFilters" role="group" aria-label="Filtrar trilhas"><button type="button" class="filter-pill selected" data-track-filter="todas" aria-pressed="true">Todas</button><button type="button" class="filter-pill" data-track-filter="andamento" aria-pressed="false">Em andamento</button><button type="button" class="filter-pill" data-track-filter="concluidas" aria-pressed="false">Concluídas</button></div><div class="tracks-grid" id="tracksGrid"></div><p class="empty-state" id="tracksEmpty" hidden>Nenhuma trilha nessa categoria ainda. Que tal começar uma aula?</p></section>
@@ -70,7 +108,7 @@
 
       <section class="view" id="view-formulas" data-view="formulas" aria-labelledby="formulas-heading" hidden><div class="page-head"><div><div class="eyebrow small">SEU GUIA DE CONSULTA</div><h1 id="formulas-heading">Fórmulas que <em>conectam.</em></h1><p>Um resumo prático de equações essenciais. Use a busca para encontrar o que precisa.</p></div><div class="page-head-symbol formula-symbol">ƒ</div></div><div class="formulas-toolbar"><label class="search-box" for="formulaSearch"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></svg><input type="search" id="formulaSearch" placeholder="Buscar fórmula, conceito ou símbolo..." autocomplete="off"></label><span id="formulaCount" class="formula-count"></span></div><div class="filter-row formula-filters" id="formulaFilters" role="group" aria-label="Filtrar fórmulas"></div><div class="formulas-grid" id="formulasGrid"></div><p class="empty-state" id="formulasEmpty" hidden>Nenhuma fórmula encontrada. Tente outro termo.</p><p class="formulas-note">* As fórmulas têm hipóteses de aplicação específicas, explicadas nas aulas. Use unidades do Sistema Internacional (SI) sempre que possível.</p></section>
 
-      <footer class="footer"><span class="footer-brand"><img src="./assets/logo-abel-mark.png" alt=""><span><strong>FÍSICA<span class="period">.</span></strong> ABEL COELHO</span></span><span>Página institucional • Escola Estadual Professor Abel Freire Coelho</span><span>Feito com curiosidade ✳</span></footer>
+      <footer class="footer"><span class="footer-brand"><img class="footer-logo" src="./assets/logo-abel-mark.png" alt="Logo do Abel Coelho"><span><strong>FÍSICA<span class="period">.</span></strong> ABEL COELHO</span></span><span>Desenvolvido por <strong>Davi Hensley De Araujo Costa</strong> · Turma Informática · 3ª série</span><span>Projeto escolar demonstrativo • Abel Freire Coelho</span></footer>
     </main>
 
     <nav class="mobile-nav" aria-label="Navegação móvel"><a href="#inicio" data-go="inicio" class="mobile-link active"><span class="mobile-icon" aria-hidden="true">⌂</span><span>Início</span></a><a href="#trilhas" data-go="trilhas" class="mobile-link"><span class="mobile-icon" aria-hidden="true">▤</span><span>Trilhas</span></a><a href="#laboratorio" data-go="laboratorio" class="mobile-link"><span class="mobile-icon" aria-hidden="true">⌁</span><span>Lab</span></a><a href="#desafios" data-go="desafios" class="mobile-link"><span class="mobile-icon" aria-hidden="true">◎</span><span>Desafios</span></a><a href="#formulas" data-go="formulas" class="mobile-link"><span class="mobile-icon" aria-hidden="true">ƒ</span><span>Fórmulas</span></a></nav>

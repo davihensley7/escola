@@ -102,3 +102,200 @@ body{background:linear-gradient(180deg,#091739 0%,#0a1b43 100%)}
   .ribbon-left{left:5px;top:110px}
   .ribbon-right{right:4px;bottom:36px}
 }
+
+/* === Ajuste final: paleta completa Abel Coelho e uso correto da logo === */
+:root{
+  --bg:#081738;
+  --surface:#0f2453;
+  --surface2:#153272;
+  --line:#3559b3;
+  --muted:#c7d5f3;
+  --text:#f8fbff;
+  --purple:#283b98;
+  --purple2:#415fd1;
+  --cyan:#1fb3ea;
+  --orange:#f5e80b;
+}
+html,body{background:linear-gradient(180deg,#081738 0%,#0d2153 100%)}
+.ambient-one{background:#304ca7;opacity:.24}
+.ambient-two{background:#1fb3ea;opacity:.12}
+.topbar,.footer{border-color:rgba(90,129,225,.25)}
+
+/* Marca */
+.brand{display:flex;align-items:center;gap:14px;min-width:0}
+.brand-logo{width:54px;height:54px;object-fit:contain;display:block;background:#fff;border-radius:14px;padding:4px;border:1px solid rgba(245,232,11,.45);box-shadow:0 10px 26px rgba(0,0,0,.18);flex:0 0 auto}
+.brand-copy{min-width:0}
+.brand-copy strong{font-size:21px;line-height:1;color:#fff}
+.brand-copy small{display:block;margin-top:4px;color:#d6e2ff;letter-spacing:.16em;line-height:1.25;max-width:360px}
+.brand-dot,.period{color:var(--orange)}
+
+/* Navegação e ações */
+.desktop-nav,.quick-card,.track-card,.formula-card,.quiz-card,.quiz-box,.lab-controls,.lab-stage,.learning-summary,.search-box,.install-guide>div,.track-progress,.challenge-banner,.stat,.insight-card,.footer,.custom-dialog,.mobile-nav,.planet-choice,.quiz-option{background-color:var(--surface)}
+.desktop-nav{border-color:rgba(86,121,213,.35)}
+.nav-link.active,.filter-pill.selected,.mobile-link.active{background:#223f93;color:#fff}
+.nav-link,.mobile-link{color:#d5e2ff}
+.nav-link:hover,.mobile-link:hover{color:#fff}
+.install-btn{background:linear-gradient(135deg,#2f4fbd,#5977e2);border:1px solid rgba(245,232,11,.5);color:#fff}
+.connection-pill{color:#d8e3ff}
+.eyebrow,.dialog-overline,.lesson-overline{color:#8fd8ff}
+.eyebrow-line{background:var(--orange)}
+.hero-tag,.formula-category,.track-badge{background:rgba(245,232,11,.12);border:1px solid rgba(245,232,11,.35);color:#fff0a2}
+.button-primary{background:linear-gradient(135deg,#2a49b0,#5473dd);border:1px solid rgba(245,232,11,.4);color:#fff}
+.button-ghost{background:rgba(255,255,255,.06);border:1px solid rgba(170,198,255,.33);color:#fff}
+.button-light{background:#f5e80b;color:#182a67}
+.text-link{color:#ffe95d}
+
+/* Hero */
+.hero{background:radial-gradient(circle at 80% 25%,rgba(31,179,234,.18) 0%,transparent 35%),linear-gradient(120deg,#132d6b 0%,#193a85 58%,#223d91 100%);border:1px solid rgba(95,134,229,.38)}
+.hero h1 em,.page-head h1 em{color:#b6c8ff}
+.hero-content>p,.page-head p,.section-heading p,.formula-card p,.track-description,.track-meta span,.learning-summary span,.formulas-note,.formula-count,.search-box input::placeholder{color:#d4e0fb}
+.hero-caption{color:#d8e2fa}
+.institutional-hero{display:flex;align-items:center;justify-content:center;right:2%;width:38%;height:370px}
+.hero-panel{width:min(100%,410px);background:rgba(255,255,255,.97);border:1px solid rgba(38,63,152,.2);border-radius:26px;padding:24px;box-shadow:0 22px 60px rgba(6,16,44,.2);display:flex;flex-direction:column;align-items:center;gap:18px}
+.hero-school-logo{display:block;width:100%;max-width:320px;object-fit:contain}
+.hero-panel-divider{width:100%;height:1px;background:linear-gradient(90deg,transparent,#c6d3f3,transparent)}
+.hero-panel-info{width:100%;text-align:center;color:#18316f}
+.hero-panel-kicker{display:block;font-size:11px;font-weight:900;letter-spacing:.2em;color:#3451ad;margin-bottom:8px}
+.hero-panel-info strong{display:block;font-size:20px;line-height:1.25;margin-bottom:12px}
+.hero-palette{display:flex;justify-content:center;gap:12px}
+.swatch{width:28px;height:28px;border-radius:50%;border:3px solid rgba(255,255,255,.85);box-shadow:0 8px 22px rgba(0,0,0,.12)}
+.swatch-blue{background:#283b98}.swatch-cyan{background:#1fb3ea}.swatch-yellow{background:#f5e80b}.swatch-red{background:#ef2f37}
+
+/* Componentes */
+.stat,.track-card,.formula-card,.lab-controls,.lab-stage,.search-box,.quiz-card,.quiz-box,.challenge-banner{border-color:rgba(80,118,212,.36)}
+.stat-icon.violet,.quick-icon.purple,.page-head-symbol,.mobile-link.active,.filter-pill.selected{background:rgba(40,59,152,.18);color:#dce5ff}
+.stat-icon.cyan,.quick-icon.turquoise,.lab-symbol{background:rgba(31,179,234,.18);color:#94e7ff}
+.stat-icon.amber,.quick-icon.orange,.challenge-symbol{background:rgba(245,232,11,.15);color:#fff19d}
+.stat-icon.green{background:rgba(31,179,234,.18);color:#8df0cf}
+.page-head-symbol,.quick-icon,.stat-icon{border:1px solid rgba(255,255,255,.08)}
+.continue-card{background:linear-gradient(135deg,#1d3586,#2949b0);border-color:rgba(245,232,11,.26)}
+.progress-circle{background:conic-gradient(#f5e80b calc(var(--progress)*1%),rgba(255,255,255,.18) 0)}
+.progress-circle>div{background:#17316f}
+.insight-card{background:radial-gradient(ellipse at right top,rgba(31,179,234,.18) 0%,transparent 58%),#0f2453;border:1px solid rgba(80,118,212,.36)}
+.insight-symbol,.formula-equation{color:#9be8ff}
+.quick-card,.planet-choice,.quiz-option{border-color:rgba(80,118,212,.36)}
+.filter-pill{background:#102559;border:1px solid rgba(80,118,212,.42);color:#d9e4ff}
+.filter-pill.selected{border-color:rgba(245,232,11,.42)}
+.search-box:focus-within,.planet-choice.selected,.quiz-option.selected{border-color:rgba(245,232,11,.6)}
+.lab-results>div,.install-guide>div{background:#13306d;border-color:rgba(80,118,212,.36)}
+.lab-tip,.lesson-real{background:rgba(31,179,234,.1);border:1px solid rgba(31,179,234,.22)}
+.custom-dialog{background:#10255a;border:1px solid rgba(95,134,229,.45)}
+.icon-close{background:#214192;border-color:rgba(132,166,245,.45)}
+.toast{background:#17316f;border-color:rgba(95,134,229,.5)}
+.footer-brand{display:flex;align-items:center;gap:10px}
+.footer-logo{width:40px;height:40px;display:block;object-fit:contain;background:#fff;border-radius:10px;padding:4px;border:1px solid rgba(245,232,11,.45)}
+
+@media(max-width:1150px){
+  .institutional-hero{width:34%;right:1%}
+  .hero-panel{padding:20px}
+}
+@media(max-width:900px){
+  .institutional-hero{position:relative;right:auto;width:100%;height:auto;margin-top:22px;transform:none}
+  .hero{flex-direction:column;align-items:flex-start}
+  .hero-panel{max-width:360px}
+}
+@media(max-width:620px){
+  .brand-logo{width:42px;height:42px;border-radius:12px}
+  .brand-copy strong{font-size:18px}
+  .brand-copy small{max-width:175px;font-size:7px;letter-spacing:.09em}
+  .install-btn{padding:10px 12px}
+  .institutional-hero{margin-top:18px}
+  .hero-panel{max-width:100%;padding:18px;border-radius:20px}
+  .hero-school-logo{max-width:250px}
+  .hero-panel-kicker{font-size:9px}
+  .hero-panel-info strong{font-size:17px}
+  .swatch{width:24px;height:24px}
+}
+
+
+/* v4: ficha do desenvolvedor, acabamento responsivo e aparência de app */
+.developer-section{margin:62px 0 8px;scroll-margin-top:24px}
+.developer-header{max-width:730px;margin:0 0 24px}
+.developer-header h2{font-size:clamp(26px,3.2vw,37px);line-height:1.15;margin:12px 0 11px;letter-spacing:-.045em}
+.developer-header h2 em{font-style:normal;color:#fff090}
+.developer-header p{font-size:13px;color:#bfceef;max-width:690px;line-height:1.8;margin-bottom:0}
+.developer-card{position:relative;isolation:isolate;overflow:hidden;padding:30px 32px;border:1px solid #345caf;border-radius:22px;background:linear-gradient(115deg,#162f70 0%,#0f275d 66%,#122962 100%);box-shadow:0 15px 40px rgba(0,10,45,.14)}
+.developer-card:after{content:"";position:absolute;z-index:-1;right:-70px;top:-110px;width:350px;height:350px;border-radius:50%;border:1px solid rgba(31,179,234,.2);box-shadow:0 0 0 55px rgba(31,179,234,.04),0 0 0 110px rgba(31,179,234,.03)}
+.developer-identity{display:flex;align-items:center;gap:19px}
+.developer-avatar{height:70px;width:70px;flex-shrink:0;border-radius:20px;background:#f5e80b;color:#182b65;display:grid;place-items:center;font-size:25px;font-weight:900;letter-spacing:-.07em;box-shadow:0 7px 22px rgba(245,232,11,.18)}
+.developer-caption{font-size:10px;font-weight:850;letter-spacing:.15em;color:#91ddff}
+.developer-identity h3{font-size:clamp(21px,2.5vw,28px);line-height:1.22;letter-spacing:-.035em;margin:8px 0 7px}
+.developer-identity p{font-size:11px;color:#c1d1ef;margin:0}
+.developer-details{margin:25px 0 20px;padding:21px 0;border-top:1px solid #5273be66;border-bottom:1px solid #5273be66;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.developer-details>div{display:flex;flex-direction:column;gap:9px}
+.developer-details dt{font-size:10px;color:#9db5df;font-weight:750;letter-spacing:.12em;text-transform:uppercase}
+.developer-details dd{font-size:15px;color:#fff;font-weight:800;margin:0}
+.developer-bottom{display:flex;gap:11px;flex-wrap:wrap}
+.developer-bottom>span{border:1px solid #5d7eca66;background:#ffffff0b;padding:9px 12px;border-radius:24px;font-weight:700;font-size:10px;color:#dbe6ff;display:flex;align-items:center;gap:8px}
+.feature-indicator{width:7px;height:7px;border-radius:50%;background:#f5e80b;box-shadow:0 0 0 4px #f5e80b22}
+.footer>span:nth-child(2){max-width:410px;line-height:1.7}
+.footer>span:nth-child(2) strong{color:#fff}
+/* Compact mobile app bar: no overlap between the school identity and install control */
+@media(max-width:900px){
+ .hero{min-height:0}
+ .institutional-hero{align-self:center;max-width:400px}
+}
+@media(max-width:620px){
+ .topbar{gap:8px;justify-content:space-between}
+ .brand{gap:9px;min-width:0;flex:1}
+ .brand-logo{width:40px;height:40px;flex-shrink:0}
+ .brand-copy{flex:1;min-width:0}
+ .brand-copy strong{font-size:17px}
+ .brand-copy small{font-size:7px;max-width:175px;letter-spacing:.04em}
+ .header-actions{flex:0 0 auto}
+ .install-btn{min-width:40px;min-height:40px;display:grid;place-items:center;padding:10px;border-radius:12px}
+ .install-btn span{display:none}
+ .install-btn svg{width:19px;height:19px}
+ .hero{min-height:0;padding:26px 22px 24px}
+ .hero-content{min-width:0}
+ .hero h1{font-size:clamp(31px,9vw,43px)}
+ .hero-panel{max-width:310px;margin-inline:auto}
+ .hero-school-logo{max-width:230px}
+ .developer-section{margin-top:48px}
+ .developer-header p{font-size:12px}
+ .developer-card{padding:22px 19px;border-radius:18px}
+ .developer-identity{gap:12px;align-items:flex-start}
+ .developer-avatar{width:53px;height:53px;border-radius:15px;font-size:19px}
+ .developer-identity h3{font-size:19px}
+ .developer-identity p{font-size:10px}
+ .developer-caption{font-size:9px}
+ .developer-details{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:22px 0 17px;padding:18px 0}
+ .developer-details dd{font-size:13px}
+ .developer-bottom>span{font-size:9px;padding:8px 10px}
+ .mobile-link{min-height:48px;min-width:0;flex:1;touch-action:manipulation}
+ .mobile-nav{gap:1px}
+ .footer>span:nth-child(2){max-width:100%}
+}
+@media(max-width:360px){
+ .app-shell{padding-left:13px;padding-right:13px}
+ .brand-copy small{max-width:130px;font-size:6.5px}
+ .brand-copy strong{font-size:16px}
+ .developer-identity h3{font-size:17px}
+ .mobile-link{font-size:8px;padding-left:1px;padding-right:1px}
+}
+@media(display-mode:standalone){
+ .topbar{padding-top:env(safe-area-inset-top,0px);height:auto;min-height:77px}
+ .mobile-nav{box-shadow:0 -8px 35px rgba(0,0,0,.2)}
+}
+
+/* Remove deslocamentos do antigo elemento decorativo no layout vertical */
+@media(max-width:900px){
+  .institutional-hero{
+    position:relative;
+    top:auto;
+    bottom:auto;
+    left:auto;
+    right:auto;
+    transform:none;
+    width:100%;
+    height:auto;
+    opacity:1;
+    margin:22px auto 0;
+    max-width:400px;
+  }
+  .hero-content{width:100%}
+  .hero-panel{width:100%}
+}
+@media(max-width:620px){
+  .institutional-hero{width:100%;max-width:310px;margin-top:24px}
+}

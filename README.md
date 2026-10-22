@@ -1,10 +1,14 @@
 # Física • Abel Coelho — PWA
 
+**Desenvolvedor:** Davi Hensley De Araujo Costa  
+**Turma:** Informática  
+**Série:** 3ª série  
+
 Portal educacional de Física desenvolvido como projeto independente para a comunidade da **Escola Estadual Professor Abel Freire Coelho**. O site não é um canal institucional oficial.
 
 ## O que funciona
 
-- Interface responsiva, para computador e celular.
+- Interface responsiva com visual de aplicativo, navegação inferior no celular e área “Sobre o aplicativo” com nome, turma e série do desenvolvedor.
 - **18 aulas** em 6 trilhas (Cinemática, Dinâmica, Energia, Ondulatória, Eletricidade e Gravitação).
 - **3 desafios**, com 4 perguntas cada, explicações e pontuação recorde.
 - **Laboratório de lançamento oblíquo** com velocidade, ângulo e gravidade da Lua, Terra ou Júpiter; gráfico animado e cálculos.
@@ -28,7 +32,7 @@ Portal educacional de Física desenvolvido como projeto independente para a comu
 ### Opção 2: GitHub Pages (grátis)
 
 1. Crie um repositório no GitHub, por exemplo `fisica-abel-coelho`.
-2. Faça upload de **todos os arquivos e da pasta `icons`** na raiz do repositório (não apenas do ZIP).
+2. Faça upload de **todos os arquivos, incluindo as pastas `icons` e `assets`** na raiz do repositório (não apenas do ZIP).
 3. Vá a **Settings > Pages > Build and deployment > Deploy from a branch**.
 4. Escolha a branch `main` e pasta `/(root)`, depois **Save**.
 5. Abra o endereço `https://SEU_USUARIO.github.io/fisica-abel-coelho/` no celular e instale o PWA.
@@ -53,6 +57,7 @@ Abra http://localhost:8000 no navegador. Para testar a instalação no telefone,
 - `manifest.webmanifest`: título, ícones e modo de abertura do PWA.
 - `sw.js`: cache offline. **Após publicar uma atualização**, aumente o número em `CACHE_NAME` (ex.: `v1` → `v2`) para atualizar o conteúdo armazenado nos dispositivos.
 - `icons/`: ícones PNG usados pelo Android, iPhone e navegador.
+- `assets/`: logotipo da escola utilizado no site.
 
 ## Limitações intencionais
 
